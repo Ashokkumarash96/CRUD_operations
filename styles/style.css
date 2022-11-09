@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Tangerine:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+:root {
+  /*color*/
+  --clr-dark: #1c2042;
+  --clr-white: #fff;
+  --max-width: 1140px;
+  --grad-clr: gradient()
+    /*font*/
+
+
+}
+
+/* pseudo elements in css */
+
+html {
+  background-image: url(../assets/lyft-hex-colors-gradient-background.png);
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+/*body {
+  font-family: 'Poppins', sans-serif;
+
+}*/
+
+/* global css */
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+
+.btn {
+  border-radius: 8px;
+  text-transform: capitalize;
+  font-size: 1.25rem;
+  cursor: pointer;
+  /* customize */
+  background-color: white;
+  color: royalblue;
+  border: 2px solid palevioletred;
+}
+
+/*---------------------------*/
+
+
+
+h1 {
+  font-family: 'Tangerine', cursive;
+  font-size: 5rem;
+  color: white;
+}
+
+h2 {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list {
+  width: 15rem;
+  height: 2rem;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.btn {
+  width: 5rem;
+  height: 2rem;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.list_item {
+  margin-top: 1rem;
+
+}
+
+.main {
+  padding-top: 0.2rem;
+  border-style: dashed;
+  border-radius: 0.52rem;
+
+}
+
+.txt-main {
+  margin-top: 2rem;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 2rem;
+  color: #fff;
+}
+
+ul {
+  background-color: whitesmoke;
+  width: 50%;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: flex-start;
+}
